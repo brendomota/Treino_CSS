@@ -1,0 +1,12 @@
+/*
+Modelo Caixa
+*/
+.conteudo {
+    border-color: red;
+    border-width: 1px;
+    border-style: solid;
+    padding: 20px;
+
+    margin: 0px; /*margens se sobrepoem entre elas quando estão juntas*/
+    width: 200px; /*O padding contabiliza no tamanho do container*/
+}
