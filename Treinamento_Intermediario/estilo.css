@@ -23,15 +23,6 @@ Elementos FLutuantes
     float: left;
 }
 
-/*
-.conteudo1_elem {
-    background-color: red;
-    border: 1px solid gray;
-    width: 150px;
-    height: 150px;
-    float: left;
-}
-    */
 .clear {
     clear: both;
 }
@@ -39,4 +30,32 @@ Elementos FLutuantes
 .principal {
     border: 5px solid red;
     background-color: green;
+}
+
+/*
+Elementos Flutuantes prática
+*/
+
+body {
+    background-color: #f4f4f4;
+}
+
+#principal {
+    width: 920px;
+}
+
+.noticia {
+    background-color: #e5e5e5;
+    padding: 5px;
+    width: 280px;
+    margin: 8px;
+    float: left;
+}
+
+.imagem_galeria {
+    background-color: white;
+    width: 280px;
+    padding: 5px;
+    float: left;
+    margin: 8px;
 }
